@@ -33,19 +33,19 @@ public class Attendance {	//declare public class named by Attendance
 	}
 
 	public String get_name() {	//declare public string method named by get_name
-		return this.name;	//return this.name
+		return name;	//return name
 	}
 
 	public int get_year() {	//declare public integer method named by get_year
-		return this.year;	//return this.year
+		return year;	//return year
 	}
 
 	public String get_IDnumber() {	//declare public string method named by get_IDnumber
-		return this.IDnumber;	//return this.IDnumber
+		return IDnumber;	//return IDnumber
 	}
 
 	public int get_miss() {	//declare public integer method named by get_miss
-		return this.miss;	//return this.miss
+		return miss;	//return miss
 	}
 
 	public void set_name(String name) {	//declare public void method named by set_name (including String name)
