@@ -38,4 +38,20 @@ public class Attendance {
 	public int miss() {
 		return this.miss;
 	}
+
+	public void set_name(String name) {
+		this.name =name;
+	}
+
+	public void set_year(int year) {
+		this.year=year;
+	}
+
+	public void set_IDnumber( String IDnumber) {
+		this.IDnumber=IDnumber;
+	}
+
+	public void set_miss(int miss) {
+		this.miss=miss;
+	}
 }
