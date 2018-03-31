@@ -19,7 +19,39 @@ public class Attendance_main {
 		student3.set_miss(randomgeneration.nextInt(10));
 		student4.set_miss(randomgeneration.nextInt(10));
 
+		if(student1.get_miss()>6)
+		{
+			System.out.println("I'm sorry"+student1.get_name()+"You failed this course");
+			System.out.println(student1.get_name()+"- number of absence:"+student1.get_miss());
+		}
+		else
+			System.out.println("We will see your grade: "+student1.get_miss());
 
+		if(student2.get_miss()>6)
+		{
+			System.out.println("I'm sorry"+student2.get_name()+"You failed this course");
+			System.out.println(student2.get_name()+"- number of absence:"+student2.get_miss());
+		}
+		else
+			System.out.println("We will see your grade: "+student2.get_miss());
+
+		if(student3.get_miss()>6)
+		{
+			System.out.println("I'm sorry"+student3.get_name()+"You failed this course");
+			System.out.println(student3.get_name()+"- number of absence:"+student3.get_miss());
+		}
+		else
+			System.out.println("We will see your grade: "+student3.get_miss());
+
+		if(student4.get_miss()>6)
+		{
+			System.out.println("I'm sorry"+student4.get_name()+"You failed this course");
+			System.out.println(student4.get_name()+"- number of absence:"+student4.get_miss());
+		}
+		else
+			System.out.println("We will see your grade: "+student4.get_miss());
+	}
+}
 
 
 
