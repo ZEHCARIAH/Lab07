@@ -1,4 +1,13 @@
 package edu.handong.csee.java.lab07.prob1;
+/**
+ * This class define a CountCentury</br>
+ * This class has public class, public method and public integer method</br>
+ * public class declare integer year</br>
+ * public CountCentury declare integer year value and declare call year</br>
+ * public int member deal with if/else statement</br>
+ * @author MG
+ *
+ */
 
 public class CountCentury {
 	int year;
