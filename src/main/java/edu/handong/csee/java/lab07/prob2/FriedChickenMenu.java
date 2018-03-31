@@ -10,50 +10,51 @@ package edu.handong.csee.java.lab07.prob2;
  *
  */
 
+public class FriedChickenMenu {	//declare public class FriedChickenMenu
 
-public class FriedChickenMenu {	
+	private String name;	//declare private String named by name
+	private double price;	//declare private double named by price
+	private int stars;		//declare private integer named by starts
 
-	private String name;	
-	private double price;	
-	private int stars;		
-
-	public FriedChickenMenu()	
+	public FriedChickenMenu()	//declare public method
 	{
-		this.name="";	
-		this.price=0.0;	
-		this.stars=0;	
+		this.name="";	//by using this, name's value can has ""
+		this.price=0.0;	//by using this, price's value can has 0.0
+		this.stars=0;	//by using this, stars's value can has 0
 	}
-	public FriedChickenMenu(String name, double price, int stars) {	
-		this.name=name;
-		this.price=price;	
-		this.stars=stars;	
-	}
-
-	public String get_name() 	
-	{
-		return this.name;	
+	public FriedChickenMenu(String name, double price, int stars) {	//declare public method including 
+		this.name=name;		//this.name equal name
+		this.price=price;	//this.price equal price;
+		this.stars=stars;	//this.stars equal stars
 	}
 
-	public double get_price()	
+	public String get_name() 	//declare public String method
 	{
-		return this.price;	
+		return this.name;	//return this.name;
 	}
-	public int get_stars()	
+
+	public double get_price()	//declare double method
 	{
-		return this.stars;	
+		return this.price;	//return this.price
 	}
-	public void set_name(String name)	
+	public int get_stars()	//declare int method
 	{
-		this.name=name;	
+		return this.stars;	//return this.stars
 	}
-	public void set_pricce(double price)	
+
+	public void set_name(String name)	//declare public void method and call String name
 	{
-		this.price=price;	
+		this.name=name;	//this.name equal name value
 	}
-	public void set_stars(int stars)	
+	public void set_pricce(double price)	//declare public void method and call double price
 	{
-		this.stars=stars;	
+		this.price=price;	//this.price equal price value
+	}
+	public void set_stars(int stars)	//declare public void method and call int stars
+	{
+		this.stars=stars;	//this.stars equal stars
 	}
 }
+
 
 
