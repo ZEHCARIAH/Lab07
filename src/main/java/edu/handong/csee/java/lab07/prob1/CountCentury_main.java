@@ -24,4 +24,4 @@ public class CountCentury_main {	//define public class named by CountCentury_Mai
 
 
 	}
-
+}
