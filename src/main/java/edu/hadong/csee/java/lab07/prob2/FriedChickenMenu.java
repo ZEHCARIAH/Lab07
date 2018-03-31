@@ -16,4 +16,10 @@ public class FriedChickenMenu {
 	{
 		return this.name;
 	}
+	
+	public double get_price()
+	{
+		return this.price;
+	}
 }
+
