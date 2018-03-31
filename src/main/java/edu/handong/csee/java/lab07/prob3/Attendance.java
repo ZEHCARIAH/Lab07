@@ -1,5 +1,14 @@
 package edu.handong.csee.java.lab07.prob3;
 import java.util.Random;
+/**
+ * This class define show some people attendance result</br>
+ * This class has public method and public void method</br>
+ * public class declare private members</br>
+ * public method deal with declared member and call each member</br>
+ * public void method call declared each member</br>
+ * @author MG
+ *
+ */
 
 public class Attendance {
 	private String name = "";
