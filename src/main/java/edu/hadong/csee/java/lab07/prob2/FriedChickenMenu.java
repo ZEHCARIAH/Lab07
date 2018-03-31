@@ -26,11 +26,19 @@ public class FriedChickenMenu {
 		return this.stars;
 	}
 
-	public void set_name()
+	public void set_name(String name)
 	{
 		this.name=name;
 	}
-	
+	public void set_pricce(double price)
+	{
+		this.price=price;
 	}
+	public void set_stars(int stars) 
+	{
+		this.stars=stars;
+	}
+}
+	
 
 
