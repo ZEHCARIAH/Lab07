@@ -25,6 +25,12 @@ public class FriedChickenMenu {
 	{
 		return this.stars;
 	}
-}
+
+	public void set_name()
+	{
+		this.name=name;
+	}
+	
+	}
 
 
