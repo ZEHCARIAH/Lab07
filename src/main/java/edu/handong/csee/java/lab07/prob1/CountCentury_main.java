@@ -1,5 +1,12 @@
 package edu.handong.csee.java.lab07.prob1;
 import java.util.Scanner;
+/**
+ * This class define a CountCentury</br>
+ * This class has public class and public static void main method</br>
+ * Main method call CountCentury and printout result </br>
+ * @author MG
+ *
+ */
 
 public class CountCentury_main {
 
