@@ -8,19 +8,19 @@ import java.util.Scanner;
  *
  */
 
-public class CountCentury_main {
+public class CountCentury_main {	//define public class named by CountCentury_Main	
 
-	public static void main(String[] args) {
+	public static void main(String[] args) {	//define static void main method 
 
 
-		int y=0;
-		Scanner keyboard= new Scanner(System.in);
+		int y=0;	//declare integer y is zero
+		Scanner keyboard= new Scanner(System.in);	// data can be entered from the keyboard using
 
-		System.out.println("Input year:");
-		y=keyboard.nextInt();
+		System.out.println("Input year:");	//printout Input year:
+		y=keyboard.nextInt();	//integer y can type to use keyboard
 
-		CountCentury year= new CountCentury(y);
-		System.out.println(y +" is "+  year.Cal_CountCentury()+ "th century");
+		CountCentury year= new CountCentury(y);	//CountCentury's integer year equal integer y by using new comment 
+		System.out.println(y +" is "+  year.Cal_CountCentury()+ "th century");	//printout year and year's century by using Cal_CountCentury method	
 
 
 	}
