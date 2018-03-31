@@ -9,43 +9,43 @@ package edu.hadong.csee.java.lab07.prob2;
  *
  */
 
-public class FriedChickenMenu {
+public class FriedChickenMenu {	//declare public class FriedChickenMenu
 
-	private String name;
-	private double price;
-	private int stars;
+	private String name;	//declare private String named by name
+	private double price;	//declare private double named by price
+	private int stars;		//declare private integer named by starts
 
-	public FriedChickenMenu()
+	public FriedChickenMenu()	//declare public method
 	{
-		this.name="";
-		this.price=0.0;
-		this.stars=0;
+		this.name="";	//by using this, name's value can has ""
+		this.price=0.0;	//by using this, price's value can has 0.0
+		this.stars=0;	//by using this, stars's value can has 0
 	}
-	public String get_name() 
+	public String get_name() 	//declare public String method
 	{
-		return this.name;
-	}
-
-	public double get_price()
-	{
-		return this.price;
-	}
-	public int get_stars()
-	{
-		return this.stars;
+		return this.name;	//return this.name;
 	}
 
-	public void set_name(String name)
+	public double get_price()	//declare double method
 	{
-		this.name=name;
+		return this.price;	//return this.price
 	}
-	public void set_pricce(double price)
+	public int get_stars()	//declare int method
 	{
-		this.price=price;
+		return this.stars;	//return this.stars
 	}
-	public void set_stars(int stars) 
+
+	public void set_name(String name)	//declare public void method and call String name
 	{
-		this.stars=stars;
+		this.name=name;	//this.name equal name value
+	}
+	public void set_pricce(double price)	//declare public void method and call double price
+	{
+		this.price=price;	//this.price equal price value
+	}
+	public void set_stars(int stars)	//declare public void method and call int stars
+	{
+		this.stars=stars;	//this.stars equal stars
 	}
 }
 
