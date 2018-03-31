@@ -1,4 +1,13 @@
 package edu.hadong.csee.java.lab07.prob2;
+/**
+ * This class define chicken menu rating</br>
+ * This class has public string, double, integer and void method.</br>
+ * public class declare each member to use it</br>
+ * public method declare each memeber's value</br>
+ * Each public void method call each member</br>
+ * @author MG
+ *
+ */
 
 public class FriedChickenMenu {
 
@@ -39,6 +48,6 @@ public class FriedChickenMenu {
 		this.stars=stars;
 	}
 }
-	
+
 
 
