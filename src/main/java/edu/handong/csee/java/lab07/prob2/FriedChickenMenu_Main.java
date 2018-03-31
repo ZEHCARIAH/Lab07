@@ -1,8 +1,15 @@
 package edu.handong.csee.java.lab07.prob2;
 
+/**
+ * This class define FriedChicken menu rating</br>
+ * This class has public class and public static void main method</br>
+ * Main method deal with chiekenMenu's limit and call void method</br>
+ * @author MG
+ *
+ */
 public class FriedChickenMenu_Main {
 
-	public static void main(String[] args) {	
+	public static void main(String[] args) {
 		FriedChickenMenu menu1=new FriedChickenMenu("Cheese_mustard",16000.00,5);	
 		FriedChickenMenu menu2=new FriedChickenMenu("Honey_musatard",16000.00,5);	
 		FriedChickenMenu menu3=new FriedChickenMenu("Spicey_chicken",16000.00,5);	
