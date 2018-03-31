@@ -1,5 +1,12 @@
 package edu.handong.csee.java.lab07.prob3;
 import java.util.Random;
+/**
+ * This class define show some people attendance result</br>
+ * This class has public static void main method</br>
+ * void main method call four people's information and use if statement to show result</br>
+ * @author MG
+ *
+ */
 
 public class Attendance_main {
 
